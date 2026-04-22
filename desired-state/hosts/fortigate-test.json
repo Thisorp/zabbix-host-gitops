@@ -1,0 +1,27 @@
+{
+  "host": "fw-fortigate-01",
+  "visible_name": "fw-fortigate-01",
+  "groups": ["Hypervisors"],
+  "templates": ["FortiGate by SNMP"],
+  "interfaces": [
+    {
+      "type": 2,
+      "main": 1,
+      "useip": 1,
+      "ip": "172.16.1.10",
+      "dns": "",
+      "port": "161",
+      "details": {
+        "version": 2,
+        "community": "{$SNMP_COMMUNITY}"
+      }
+    }
+  ],
+  "macros": [
+    { "macro": "{$SNMP_COMMUNITY}", "value": "public" }
+  ],
+  "tags": [
+    { "tag": "vendor", "value": "fortinet" },
+    { "tag": "managed_by", "value": "gitops" }
+  ]
+}

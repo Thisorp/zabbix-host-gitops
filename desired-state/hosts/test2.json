@@ -1,0 +1,34 @@
+{
+  "host": "snmp-172.16.0.20",
+  "visible_name": "snmp-172.16.0.20",
+  "description": "SNMP monitored host (GitOps)",
+  "status": 0,
+
+  "groups": [
+    "Hypervisors"
+  ],
+
+  "templates": [
+    "Generic by SNMP"
+  ],
+
+  "interfaces": [
+    {
+      "type": 2,
+      "main": 1,
+      "useip": 1,
+      "ip": "172.16.0.20",
+      "dns": "",
+      "port": "161",
+      "details": {
+        "version": 2,
+        "community": "public"
+      }
+    }
+  ],
+
+  "tags": [
+    { "tag": "managed_by", "value": "gitops" },
+    { "tag": "protocol", "value": "snmp" }
+  ]
+}

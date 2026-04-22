@@ -1,0 +1,19 @@
+{
+  "host": "test-api",
+  "visible_name": "test-api",
+  "groups": ["Applications"],
+  "templates": ["Linux by Zabbix agent"],
+  "interfaces": [
+    {
+      "type": 1,
+      "main": 1,
+      "useip": 1,
+      "ip": "172.16.0.2",
+      "dns": "",
+      "port": "10050"
+    }
+  ],
+  "tags": [
+    { "tag": "managed_by", "value": "gitops" }
+  ]
+}

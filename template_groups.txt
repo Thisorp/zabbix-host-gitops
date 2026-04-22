@@ -1,0 +1,370 @@
+=== HOST GROUPS ===
+19	Applications
+20	Databases
+5	Discovered hosts
+7	Hypervisors
+2	Linux servers
+6	Virtual machines
+4	Zabbix servers
+
+=== TEMPLATES ===
+10599	Acronis Cyber Protect Cloud by HTTP
+10600	Acronis Cyber Protect Cloud MSP by HTTP
+10076	AIX by Zabbix agent
+10207	Alcatel Timetra TiMOS by SNMP
+10358	Apache ActiveMQ by JMX
+10265	Apache by HTTP
+10264	Apache by Zabbix agent
+10637	Apache by Zabbix agent active
+10370	Apache Cassandra by JMX
+10364	Apache Kafka by JMX
+10260	Apache Tomcat by JMX
+10401	APC Smart-UPS 2200 RM by SNMP
+10402	APC Smart-UPS 3000 XLM by SNMP
+10403	APC Smart-UPS RT 1000 RM XL by SNMP
+10404	APC Smart-UPS RT 1000 XL by SNMP
+10412	APC Smart-UPS SRT 5000 by SNMP
+10406	APC Smart-UPS SRT 8000 by SNMP
+10395	APC UPS by SNMP
+10400	APC UPS Galaxy 3500 by SNMP
+10407	APC UPS Symmetra LX by SNMP
+10408	APC UPS Symmetra RM by SNMP
+10409	APC UPS Symmetra RX by SNMP
+10359	Aranet Cloud
+10254	Arista by SNMP
+10766	Aruba CX 8300s by SNMP
+10336	Asterisk by HTTP
+10764	AWS Backup Vault by HTTP
+10535	AWS by HTTP
+10582	AWS Cost Explorer by HTTP
+10527	AWS EC2 by HTTP
+10583	AWS ECS Cluster by HTTP
+10584	AWS ECS Serverless Cluster by HTTP
+10607	AWS ELB Application Load Balancer by HTTP
+10627	AWS ELB Network Load Balancer by HTTP
+10632	AWS Lambda by HTTP
+10529	AWS RDS instance by HTTP
+10530	AWS S3 bucket by HTTP
+10690	Azure Backup Jobs by HTTP
+10531	Azure by HTTP
+10568	Azure Cosmos DB for MongoDB by HTTP
+10606	Azure Cost Management by HTTP
+10557	Azure Microsoft SQL Database by HTTP
+10664	Azure Microsoft SQL DTU Database by HTTP
+10558	Azure Microsoft SQL Serverless Database by HTTP
+10539	Azure MySQL Flexible Server by HTTP
+10540	Azure MySQL Single Server by HTTP
+10543	Azure PostgreSQL Flexible Server by HTTP
+10544	Azure PostgreSQL Single Server by HTTP
+10652	Azure SQL Managed Instance by HTTP
+10532	Azure Virtual Machine by HTTP
+10634	Azure VM Scale Set by HTTP
+10208	Brocade FC by SNMP
+10210	Brocade_Foundry Nonstackable by SNMP
+10211	Brocade_Foundry Stackable by SNMP
+10353	Ceph by Zabbix agent 2
+10321	Chassis by IPMI
+10613	Check Point Next Generation Firewall by SNMP
+10767	Ciena 3906 by SNMP
+10418	Cisco ASAv by SNMP
+10390	Cisco Catalyst 3750V2-24FS by SNMP
+10391	Cisco Catalyst 3750V2-24PS by SNMP
+10392	Cisco Catalyst 3750V2-24TS by SNMP
+10393	Cisco Catalyst 3750V2-48PS by SNMP
+10394	Cisco Catalyst 3750V2-48TS by SNMP
+10218	Cisco IOS by SNMP
+10220	Cisco IOS prior to 12.0_3_T by SNMP
+10253	Cisco IOS versions 12.0_3_T-12.2_3.5 by SNMP
+10546	Cisco Meraki dashboard by HTTP
+10547	Cisco Meraki device by HTTP
+10548	Cisco Meraki organization by HTTP
+10551	Cisco Nexus 9000 Series by SNMP
+10590	Cisco SD-WAN by HTTP
+10591	Cisco SD-WAN device by HTTP
+10763	Cisco Secure Firewall Threat Defense by HTTP
+10304	Cisco UCS by SNMP
+10434	Cisco UCS Manager by SNMP
+10323	ClickHouse by HTTP
+10414	Cloudflare by HTTP
+10519	CockroachDB by HTTP
+10552	Control-M enterprise manager by HTTP
+10553	Control-M server by HTTP
+10776	Cradlepoint NCM v2 by HTTP
+10777	Cradlepoint NCM v2 device by HTTP
+10221	Dell Force S-Series by SNMP
+10255	Dell iDRAC by SNMP
+10656	DELL PowerEdge R660 by HTTP
+10657	DELL PowerEdge R660 by SNMP
+10435	DELL PowerEdge R720 by HTTP
+10436	DELL PowerEdge R720 by SNMP
+10437	DELL PowerEdge R740 by HTTP
+10438	DELL PowerEdge R740 by SNMP
+10658	DELL PowerEdge R750 by HTTP
+10659	DELL PowerEdge R750 by SNMP
+10439	DELL PowerEdge R820 by HTTP
+10440	DELL PowerEdge R820 by SNMP
+10441	DELL PowerEdge R840 by HTTP
+10442	DELL PowerEdge R840 by SNMP
+10222	D-Link DES 7200 by SNMP
+10223	D-Link DES_DGS Switch by SNMP
+10318	Docker by Zabbix agent 2
+10322	Elasticsearch Cluster by HTTP
+10520	Envoy Proxy by HTTP
+10324	Etcd by HTTP
+10224	Extreme EXOS by SNMP
+10419	F5 Big-IP by SNMP
+10603	FortiGate by HTTP
+10604	FortiGate by SNMP
+10075	FreeBSD by Zabbix agent
+10570	GCP by HTTP
+10571	GCP Cloud SQL MSSQL by HTTP
+10572	GCP Cloud SQL MSSQL Replica by HTTP
+10573	GCP Cloud SQL MySQL by HTTP
+10574	GCP Cloud SQL MySQL Replica by HTTP
+10575	GCP Cloud SQL PostgreSQL by HTTP
+10576	GCP Cloud SQL PostgreSQL Replica by HTTP
+10577	GCP Compute Engine Instance by HTTP
+10563	Generic by SNMP
+10169	Generic Java JMX
+10629	GitHub repository by HTTP
+10362	GitLab by HTTP
+10417	GridGain by JMX
+10363	Hadoop by HTTP
+10309	HAProxy by HTTP
+10308	HAProxy by Zabbix agent
+10522	HashiCorp Consul Cluster by HTTP
+10521	HashiCorp Consul Node by HTTP
+10594	HashiCorp Nomad by HTTP
+10595	HashiCorp Nomad Client by HTTP
+10596	HashiCorp Nomad Server by HTTP
+10365	HashiCorp Vault by HTTP
+10380	Hikvision camera by HTTP
+10227	HP Comware HH3C by SNMP
+10605	HPE iLO by HTTP
+10524	HPE MSA 2040 Storage by HTTP
+10525	HPE MSA 2060 Storage by HTTP
+10250	HP Enterprise Switch by SNMP
+10526	HPE Primera by HTTP
+10443	HPE ProLiant BL460 by SNMP
+10444	HPE ProLiant BL920 by SNMP
+10445	HPE ProLiant DL360 by SNMP
+10446	HPE ProLiant DL380 by SNMP
+10534	HPE Synergy by HTTP
+10256	HP iLO by SNMP
+10077	HP-UX by Zabbix agent
+10779	Huawei AR600 by SNMP
+10385	Huawei OceanStor 5300 V5 by SNMP
+10636	Huawei OceanStor Dorado by SNMP
+10229	Huawei VRP by SNMP
+10258	IBM IMM by SNMP
+10564	ICMP Ping
+10381	Ignite by JMX
+10325	IIS by Zabbix agent
+10326	IIS by Zabbix agent active
+10448	InfluxDB by HTTP
+10230	Intel_Qlogic Infiniband by SNMP
+10171	Intel SR1530 IPMI
+10172	Intel SR1630 IPMI
+10379	Jenkins by HTTP
+10630	Jira Data Center by JMX
+10231	Juniper by SNMP
+10667	Juniper MX by NETCONF
+10654	Juniper MX by SNMP
+10504	Kubernetes API server by HTTP
+10510	Kubernetes cluster state by HTTP
+10505	Kubernetes Controller manager by HTTP
+10506	Kubernetes Kubelet by HTTP
+10507	Kubernetes nodes by HTTP
+10509	Kubernetes Scheduler by HTTP
+10285	Linux by Prom
+10248	Linux by SNMP
+10001	Linux by Zabbix agent
+10343	Linux by Zabbix agent active
+10079	macOS by Zabbix agent
+10593	Mantis BT by HTTP
+10251	Mellanox by SNMP
+10319	Memcached by Zabbix agent 2
+10631	Microsoft 365 reports by HTTP
+10360	Microsoft Exchange Server 2016 by Zabbix agent
+10361	Microsoft Exchange Server 2016 by Zabbix agent active
+10382	Microsoft SharePoint by HTTP
+10233	Mikrotik by SNMP
+10450	MikroTik CCR1009-7G-1C-1S by SNMP
+10449	MikroTik CCR1009-7G-1C-1SPC by SNMP
+10451	MikroTik CCR1009-7G-1C-PC by SNMP
+10452	MikroTik CCR1016-12G by SNMP
+10453	MikroTik CCR1016-12S-1S by SNMP
+10455	MikroTik CCR1036-12G-4S by SNMP
+10454	MikroTik CCR1036-12G-4S-EM by SNMP
+10457	MikroTik CCR1036-8G-2S by SNMP
+10456	MikroTik CCR1036-8G-2SEM by SNMP
+10458	MikroTik CCR1072-1G-8S by SNMP
+10459	MikroTik CCR2004-16G-2S by SNMP
+10460	MikroTik CCR2004-1G-12S2XS by SNMP
+10461	MikroTik CRS106-1C-5S by SNMP
+10462	MikroTik CRS109-8G-1S-2HnD-IN by SNMP
+10463	MikroTik CRS112-8G-4S-IN by SNMP
+10464	MikroTik CRS112-8P-4S-IN by SNMP
+10465	MikroTik CRS125-24G-1S-2HnD-IN by SNMP
+10466	MikroTik CRS212-1G-10S-1SIN by SNMP
+10467	MikroTik CRS305-1G-4SIN by SNMP
+10468	MikroTik CRS309-1G-8SIN by SNMP
+10469	MikroTik CRS312-4C8XG-RM by SNMP
+10470	MikroTik CRS317-1G-16SRM by SNMP
+10471	MikroTik CRS326-24G-2SIN by SNMP
+10472	MikroTik CRS326-24G-2SRM by SNMP
+10473	MikroTik CRS326-24S2QRM by SNMP
+10474	MikroTik CRS328-24P-4SRM by SNMP
+10475	MikroTik CRS328-4C-20S-4SRM by SNMP
+10476	MikroTik CRS354-48G-4S2QRM by SNMP
+10477	MikroTik CRS354-48P-4S2QRM by SNMP
+10478	MikroTik CSS326-24G-2SRM by SNMP
+10479	MikroTik CSS610-8G-2SIN by SNMP
+10480	MikroTik FiberBox by SNMP
+10499	MikroTik hEX by SNMP
+10498	MikroTik hEX lite by SNMP
+10496	MikroTik hEX PoE by SNMP
+10495	MikroTik hEX PoE lite by SNMP
+10497	MikroTik hEX S by SNMP
+10500	MikroTik netPower 15FR by SNMP
+10501	MikroTik netPower 16P by SNMP
+10502	MikroTik netPower Lite 7R by SNMP
+10482	MikroTik PowerBox by SNMP
+10481	MikroTik PowerBox Pro by SNMP
+10484	MikroTik RB1100AHx4 by SNMP
+10483	MikroTik RB1100AHx4 Dude Edition by SNMP
+10487	MikroTik RB2011iL-IN by SNMP
+10488	MikroTik RB2011iL-RM by SNMP
+10489	MikroTik RB2011iLS-IN by SNMP
+10485	MikroTik RB2011UiAS-IN by SNMP
+10486	MikroTik RB2011UiAS-RM by SNMP
+10491	MikroTik RB260GS by SNMP
+10490	MikroTik RB260GSP by SNMP
+10492	MikroTik RB3011UiAS-RM by SNMP
+10493	MikroTik RB4011iGSRM by SNMP
+10494	MikroTik RB5009UGSIN by SNMP
+10387	MongoDB cluster by Zabbix agent 2
+10386	MongoDB node by Zabbix agent 2
+10371	Morningstar ProStar MPPT by SNMP
+10372	Morningstar ProStar PWM by SNMP
+10373	Morningstar SunSaver MPPT by SNMP
+10374	Morningstar SureSine by SNMP
+10375	Morningstar TriStar MPPT 600V by SNMP
+10376	Morningstar TriStar MPPT by SNMP
+10377	Morningstar TriStar PWM by SNMP
+10327	MSSQL by ODBC
+10609	MSSQL by Zabbix agent 2
+10317	MySQL by ODBC
+10316	MySQL by Zabbix agent
+10320	MySQL by Zabbix agent 2
+10646	MySQL by Zabbix agent 2 active
+10647	MySQL by Zabbix agent active
+10396	NetApp AFF A700 by HTTP
+10378	NetApp FAS3220 by SNMP
+10234	Netgear Fastpath by SNMP
+10226	Network Generic Device by SNMP
+10602	Nextcloud by HTTP
+10267	Nginx by HTTP
+10266	Nginx by Zabbix agent
+10639	Nginx by Zabbix agent active
+10415	NGINX Plus by HTTP
+10640	Nutanix Cluster Prism Element by HTTP
+10641	Nutanix Host Prism Element by HTTP
+10642	Nutanix Prism Element by HTTP
+10651	Nvidia by Zabbix agent 2
+10650	Nvidia by Zabbix agent 2 active
+10074	OpenBSD by Zabbix agent
+10586	OpenStack by HTTP
+10587	OpenStack Nova by HTTP
+10516	OpenWeatherMap by HTTP
+10528	OPNsense by SNMP
+10328	Oracle by ODBC
+10335	Oracle by Zabbix agent 2
+10614	Oracle Cloud Autonomous Database by HTTP
+10615	Oracle Cloud Block Volume by HTTP
+10616	Oracle Cloud Boot Volume by HTTP
+10617	Oracle Cloud by HTTP
+10618	Oracle Cloud Compute by HTTP
+10619	Oracle Cloud Networking by HTTP
+10620	Oracle Cloud Object Storage by HTTP
+10560	OS processes by Zabbix agent
+10655	Palo Alto PA-440 by HTTP
+10515	PFSense by SNMP
+10331	PHP-FPM by HTTP
+10330	PHP-FPM by Zabbix agent
+10645	PHP-FPM by Zabbix agent active
+10589	PostgreSQL by ODBC
+10357	PostgreSQL by Zabbix agent
+10329	PostgreSQL by Zabbix agent 2
+10648	PostgreSQL by Zabbix agent 2 active
+10649	PostgreSQL by Zabbix agent active
+10517	Proxmox VE by HTTP
+10665	Pure Storage FlashArray v1 by HTTP
+10666	Pure Storage FlashArray v2 by HTTP
+10235	QTech QSW by SNMP
+10302	RabbitMQ cluster by HTTP
+10300	RabbitMQ cluster by Zabbix agent
+10303	RabbitMQ node by HTTP
+10301	RabbitMQ node by Zabbix agent
+10310	Redis by Zabbix agent 2
+10262	Remote Zabbix proxy health
+10261	Remote Zabbix server health
+10770	Ribbon SBC Edge by HTTP
+10771	Ribbon SBC SWe CE by HTTP
+10772	Ribbon SBC SWe Core by HTTP
+10565	SMART by Zabbix agent 2
+10566	SMART by Zabbix agent 2 active
+10078	Solaris by Zabbix agent
+10355	Squid by SNMP
+10769	Stormshield SNS by SNMP
+10259	Supermicro Aten by SNMP
+10416	Systemd by Zabbix agent 2
+10398	TiDB by HTTP
+10397	TiDB PD by HTTP
+10399	TiDB TiKV by HTTP
+10236	TP-LINK by SNMP
+10447	Travis CI by HTTP
+10518	TrueNAS CORE by SNMP
+10237	Ubiquiti AirOS by SNMP
+10555	Veeam Backup and Replication by HTTP
+10556	Veeam Backup Enterprise Manager by HTTP
+10503	VeloCloud SD-WAN by HTTP
+10774	VeloCloud SD-WAN Edge by HTTP
+10173	VMware
+10366	VMware FQDN
+10174	VMware Guest
+10175	VMware Hypervisor
+10768	Vyatta Virtual Router by SNMP
+10628	Website by Browser
+10413	Website certificate by Zabbix agent 2
+10638	Website certificate by Zabbix agent 2 active
+10410	WildFly Domain by JMX
+10411	WildFly Server by JMX
+10249	Windows by SNMP
+10081	Windows by Zabbix agent
+10351	Windows by Zabbix agent active
+10610	YugabyteDB by HTTP
+10611	YugabyteDB Cluster by HTTP
+10561	Zabbix agent
+10562	Zabbix agent active
+10048	Zabbix proxy health
+10660	Zabbix proxy health by Zabbix agent
+10661	Zabbix proxy health by Zabbix agent active
+10047	Zabbix server health
+10662	Zabbix server health by Zabbix agent
+10663	Zabbix server health by Zabbix agent active
+10369	Zookeeper by HTTP
+10420	ZYXEL AAM1212-51 IES-612 by SNMP
+10421	ZYXEL ES3500-8PD by SNMP
+10422	ZYXEL GS-4012F by SNMP
+10425	ZYXEL IES1248-51 by SNMP
+10423	ZYXEL IES-500x by SNMP
+10424	ZYXEL IES-6000 by SNMP
+10427	ZYXEL MES3500-10 by SNMP
+10428	ZYXEL MES3500-24 by SNMP
+10431	ZYXEL MES3500-24S by SNMP
+10426	ZYXEL MES-3528 by SNMP
+10432	ZYXEL MGS3520-28x by SNMP
+10429	ZYXEL MGS-3712 by SNMP
+10430	ZYXEL MGS-3712F by SNMP
+10433	ZYXEL XGS-4728F by SNMP

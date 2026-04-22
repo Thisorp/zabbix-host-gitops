@@ -1,0 +1,19 @@
+{
+  "host": "name",
+  "visible_name": "name",
+  "groups": ["Production", "Application"],
+  "templates": ["Windows by Zabbix agent"],
+  "interfaces": [
+    {
+      "type": 1,
+      "main": 1,
+      "useip": 1,
+      "ip": "172.",
+      "dns": "",
+      "port": "10050"
+    }
+  ],
+  "tags": [
+    { "tag": "managed_by", "value": "gitops" }
+  ]
+}

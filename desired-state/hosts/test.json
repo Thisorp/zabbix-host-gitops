@@ -1,0 +1,23 @@
+{
+  "host": "app-172.16.6.17",
+  "visible_name": "app-172.16.6.17",
+  "description": "Managed by GitOps",
+  "status": 0,  
+  "groups": ["Applications", "Linux servers"],
+  "templates": ["Linux by Zabbix agent"],
+  "interfaces": [
+    {
+      "type": 1,
+      "main": 1,
+      "useip": 1,
+      "ip": "172.16.6.17",
+      "dns": "",
+      "port": "10050"
+    }
+  ],
+  "tags": [
+    { "tag": "managed_by", "value": "gitops" },
+    { "tag": "env", "value": "prod" }
+  ],
+  "macros": []
+}
